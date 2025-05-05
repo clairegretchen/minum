@@ -23,7 +23,7 @@ nav a{
     font-family:monospace;
 }
 section.home{
-    background: url("home\ kombucha.jpg");
+    background: url("kombucha.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: no-repeat;
