@@ -1,0 +1,161 @@
+body{
+    margin:0%px;
+    text-shadow: 3px 3px 3px #2d252592;
+    font-family:monospace;
+    font-size:medium;
+}
+header{
+    display: flex;
+    top: 0;
+    width: 100%;
+    background-color: rgba(202, 153, 67, 0.734);
+    justify-content: space-between;
+    position: fixed;
+    color: rgba(49, 17, 49, 0.927);
+    padding:10px;
+    display: flex;
+    height: 25px;
+}
+nav a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: rgba(13, 13, 13, 0.927);
+    font-family:monospace;
+}
+section.home{
+    background: url("home\ kombucha.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: no-repeat;
+    height:600px;
+    padding: 100px;
+}
+section.home div{
+    text-align: center;
+    color: rgba(5, 5, 5, 0.847);
+    font-family:monospace;
+    margin:auto;
+    width:70%;
+    padding:30px;
+    padding-left:100px;
+}
+section.home.welcome{
+    font-size:50px;
+}
+section.home a{
+    color:rgba(7, 7, 7, 0.905);
+    padding: 10px 20px;
+    text-decoration:none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.about{
+    background-color: rgba(188, 128, 85, 0.78);
+    height: 600px;
+    padding-top: 100px;
+}
+section.about div{
+    color: rgba(243, 237, 242, 0.959);
+    text-align: center;
+    margin: auto;
+    width: 70%;    
+}
+section.about img{
+    height: 400px;
+}
+section.product{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 1200px;
+    background-color: rgb(217, 210, 205);
+}
+section.product .minum{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    padding: 150px;
+    gap: 20px;
+}
+.kombucha{
+    text-align: center;
+    position:relative;
+    width: 200px;
+    height: 350px;
+    text-decoration: none;
+    background-attachment: fixed;
+    box-shadow: 0px 0px 3px rgb(15, 15, 15);
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 10px;
+}
+.kombucha img{
+    height: 150px;
+    padding-top: 30px;
+}
+@keyframes j{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(3deg);
+    }
+    50%{
+        transform: rotate(-3deg);
+    }
+    75%{
+        transform: rotate(1deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.card:hover{
+    box-shadow: #000000;
+    transition:cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation: j 0.5s;
+}
+
+section.contact .card{
+    background-color: rgba(214, 172, 237, 0.267);
+    height: 600px;
+}
+section.contact .card div{
+    margin: auto;
+    color: #1a1918;
+    text-align: center;
+    padding-top: 40px;
+    width: 400px;
+    font-family: monospace;
+}
+section.contact .card img{
+    width: 100%;
+    align-items: center;
+}
+footer{
+    background-color:rgba(84, 44, 89, 0.295);
+    height: 100px;
+}
+footer{
+    background-color: grey;
+    height:50px;
+    text-align:center;
+}
+footer .medsos{
+    text-align: center; padding-top: 10px;
+    font-size: xx-large;
+    color: white;
+    padding-left: 10px;
+}
+footer .medsos a{
+    color:white;
+    font-size: 20px;
+    padding: 5px 20px;
+    text-align:center;
+}
+
+.kombucha:hover{
+    animation: j 0.5s;
+}
+
